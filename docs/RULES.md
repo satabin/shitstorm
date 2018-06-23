@@ -45,6 +45,21 @@ Chaque joueur commence la partie avec 50 points de répartie.
 Le premier joueur qui atteint 0 a perdu et son adversaire est déclaré vainqueur.
 Protégez vous derrière des argumentaires bancals afin de ne pas perdre la face trop rapidement.
 
+# Mise en place
+
+En début de partie, chaque joueur reçoit 10 cartes :
+ - 8 cartes _Partageur_ ;
+ - 2 cartes _Trollâillon_.
+
+Il les mélange et forme ainsi son deck de départ.
+
+Mélangez le reste des cartes et placez les faces cachées au milieu de la table.
+Tirez-en 5 que vous retournez et disposez au centre entre les deux joueurs.
+Ce sont les cartes disponibles à l’achat par les joueurs.
+
+Chaque joueur note ses points de répartie initiaux (50 par joueur) sur une feuille.
+La partie peut commencer.
+
 # Tour de jeu
 
 Chacun à son tour, les joueurs tirent 5 cartes de leur deck et les jouent les unes après les autres.
