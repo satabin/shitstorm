@@ -11,7 +11,7 @@ Squib::Deck.new(cards: data.nrows) do
     when "Upéhère" then '#CA6573'
     when "Platiste" then '#D4AB6A'
     when "9/11" then '#70B45A'
-    else '#000'
+    else '#764B8E'
     end
   end
   background color: bg_colors
@@ -22,11 +22,11 @@ Squib::Deck.new(cards: data.nrows) do
   rect layout: :quote_rect
   rect layout: :title_rect, fill_color: bg_colors
 
-  svg data: GameIcons.get('lorc/punch').string, layout: 'aff_ico'
+  svg data: data.aff.map { |aff| GameIcons.get('lorc/punch').string unless aff.nil? }, layout: 'aff_ico'
   text str: data.aff, layout: :aff
-  svg data: GameIcons.get('lorc/shining-heart').string, layout: 'ren_ico'
+  svg data: data.ren.map { |ren| GameIcons.get('lorc/sunbeams').string unless ren.nil? }, layout: 'ren_ico'
   text str: data.ren, layout: :ren
-  svg data: GameIcons.get('delapouite/heart-beats').string, layout: 'cost_ico'
+  svg data: data.cost.map { |cost| GameIcons.get('delapouite/heart-beats').string unless cost.nil? }, layout: 'cost_ico'
   text str: data.cost, layout: :cost
   svg data: data.art.map { |art| GameIcons.get(art).recolor(fg: '333', bg: 'ccc').string }, layout: 'art'
 
