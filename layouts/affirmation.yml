@@ -1,0 +1,146 @@
+aff_ico:
+  x: 75
+  y: 90
+  width: 75
+  height: 75
+  font_size: 6
+  valign: middle
+  align: center
+aff:
+  x: 155
+  y: 90
+  width: 50
+  height: 75
+  font_size: 6
+  valign: middle
+  align: left
+
+ren_ico:
+  x: 75
+  y: 180
+  width: 75
+  height: 75
+ren:
+  x: 155
+  y: 180
+  width: 45
+  height: 75
+  font_size: 6
+  valign: middle
+  align: left
+
+cost_ico:
+  x: 675
+  y: 90
+  width: 75
+  height: 75
+cost:
+  x: 625
+  y: 90
+  width: 45
+  height: 75
+  font_size: 6
+  valign: middle
+  align: right
+
+type:
+  x: 215
+  y: 90
+  width: 395
+  height: 50
+  align: center
+
+art:
+  x: 265
+  y: 165
+  width: 300
+  height: 300
+
+title_rect:
+  x: 75
+  y: 475
+  width: 675
+  height: 60
+  stroke_color: '#0000'
+
+title:
+  x: 90
+  y: 480
+  align: center
+  valign: middle
+  width: 645
+  height: 50
+
+description:
+  x: 100
+  y: 545
+  width: 625
+  height: 275
+  valign: middle
+  align: center
+  font_size: 6
+desc: # alias
+  extends: description
+
+quote_rect:
+  x: 90
+  y: 835
+  width: 645
+  height: 175
+  radius: 16
+  fill_color: '#ccc'
+  stroke_color: '#0000'
+
+quote:
+  x: 160
+  y: 835
+  width: 485
+  height: 175
+  valign: middle
+  align: center
+  font_size: 6
+
+quote_open:
+  x: 95
+  y: 840
+  width: 75
+  height: 75
+
+quote_close:
+  x: 655
+  y: 930
+  width: 75
+  height: 75
+
+copyright:
+  x: 75
+  y: 1025
+  width: 675
+  height: 25
+  font_size: 5
+  align: center
+  valign: bottom
+#aliases for copyright
+copy:
+  extends: copyright
+credit:
+  extends: copyright
+credits:
+  extends: copyright
+
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+  stroke_color: '#0000'
+  fill_color: '#fff'
