@@ -24,10 +24,35 @@ Les trolls et complotistes se groupent en cohortes.
 Il en existe 4 :
  - les Anti-Vax ;
  - les 9/11 ;
- - les Upéhères ;
- - les Platistes.
+ - les Platistes ;
+ - les Twittos.
 
 Chacune a ses spécificités et plus vous accumulerez de participants dans une cohorte, plus elle sera forte en renommée et en capacité à affirmer sans se faire contredire.
+
+## La cohorte des _Anti-Vax_
+
+Que serait l’Internet sans les _Anti-Vax_ et leurs études scientifiques ?
+
+Cette cohorte permet de se protéger des attaques en fournissant une multitude de sources pour appuyer leurs dires.
+
+## La cohorte des _Platistes_
+
+Avez-vous déjà vu la courbe ?
+Non !
+Eh bien voilà, inutile d’en dire plus…
+
+Cette cohorte est très forte pour se construire une renommée.
+
+## La cohorte des _9/11_
+
+Incontournables du XXIe siècle, les persuadés du complot du 11 septembre feront tout pour faire bégayer leur adversaire.
+
+De toute manière, si vous ne les croyez pas, c’est que vous êtes un agent du Mossad ou de la CIA. CQFD.
+
+## La cohorte des _Twittos_
+
+Les _Twittos_ sont une cohorte à part, ils ne se coordonnent pas, mais peuvent faire très mal.
+Ils peuvent venir aider un autre complot, qui les dépasse, et sont une bonne cohorte d’appoint pour renforcer son complot.
 
 # Types de cartes
 
