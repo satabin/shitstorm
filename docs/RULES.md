@@ -1,21 +1,50 @@
 # Intro
 
-What is this game about? How many players?
+Jeu de construction de deck avec les complotistes.
+Jeu pour deux joueurs qui s’affrontent à coup de théories du complot.
+Plus un complot est gros, plus il portera préjudice à l’adversaire.
+Votre but est donc de construire une théorie du complot immense et bien ficelée pour clouer le bec de votre adversaire.
+Accumulez des points de renommée pour étendre votre complot et détruire l’argumentation adverse à coup d’affirmations.
 
-# Objective
+Chaque carte est composée des éléments suivants :
+ - un nom ;
+ - une cohorte (9/11, Anti-Vax, ...) ;
+ - une catégorie (troll, étude « scientifique », ...) ;
+ - optionnellement une action décrite par un court texte ;
+ - une citation (tirée d’un tweet réel d’un complotiste de ce style) ;
+ - des valeurs parmi les suivantes :
+   - affirmation (attaque),
+   - argumentation (défense),
+   - renommée (argent) ;
+ - un coût d’achat en renommée.
 
-What is the object of the game?
+# Cohortes
 
-# Components
+Les trolls et complotistes se groupent en cohortes.
+Il en existe 4 :
+ - les Anti-Vax ;
+ - les 9/11 ;
+ - les Upéhères ;
+ - les Platistes.
 
-What are the components? List them out.
+Chacune a ses spécificités et plus vous accumulerez de participants dans une cohorte, plus elle sera forte en renommée et en capacité à affirmer sans se faire contredire.
 
-# Gameplay
+# Types de cartes
 
-What does each turn look like? Describe a turn. 
+Il existe différents types de cartes :
+ - les _affirmations_, qui permettent de détruire la crédibilité adverse ;
+ - les _sources_, qui permettent de se protéger des affirmations de l’adversaire.
 
-# Scoring
+À chaque tour, les affirmations jouées sont défaussées, mais les sources restent en place, tant qu’elles ne sont pas décrédibilisées par de nouvelles affirmations.
 
-How is victory assigned?
+Une source protège la répartie du joueur, et doit être détruite avant que sa crédibilité ne soit entamée.
 
+# But du jeu
 
+Chaque joueur commence la partie avec 50 points de répartie.
+Le premier joueur qui atteint 0 a perdu et son adversaire est déclaré vainqueur.
+Protégez vous derrière des argumentaires bancals afin de ne pas perdre la face trop rapidement.
+
+# Tour de jeu
+
+Chacun à son tour, les joueurs tirent 5 cartes de leur deck et les jouent les unes après les autres.
