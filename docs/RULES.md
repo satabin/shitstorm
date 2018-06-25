@@ -4,7 +4,7 @@ Jeu de construction de deck avec les complotistes.
 Jeu pour deux joueurs qui s’affrontent à coup de théories du complot.
 Plus un complot est gros, plus il portera préjudice à l’adversaire.
 Votre but est donc de construire une théorie du complot immense et bien ficelée pour clouer le bec de votre adversaire.
-Accumulez des points de renommée pour étendre votre complot et détruire l’argumentation adverse à coup d’affirmations.
+Accumulez des points de rayonnement pour étendre votre complot et détruire l’argumentation adverse à coup d’affirmations.
 
 Chaque carte est composée des éléments suivants :
  - un nom ;
@@ -15,8 +15,8 @@ Chaque carte est composée des éléments suivants :
  - des valeurs parmi les suivantes :
    - affirmation (attaque),
    - argumentation (défense),
-   - renommée (argent) ;
- - un coût d’achat en renommée.
+   - rayonnement (argent) ;
+ - un coût d’achat en rayonnement.
 
 # Cohortes
 
@@ -27,13 +27,13 @@ Il en existe 4 :
  - les Platistes ;
  - les Twittos.
 
-Chacune a ses spécificités et plus vous accumulerez de participants dans une cohorte, plus elle sera forte en renommée et en capacité à affirmer sans se faire contredire.
+Chacune a ses spécificités et plus vous accumulerez de participants dans une cohorte, plus elle sera forte en rayonnement et en capacité à affirmer sans se faire contredire.
 
 ## La cohorte des _Anti-Vax_
 
 Que serait l’Internet sans les _Anti-Vax_ et leurs études scientifiques ?
 
-Cette cohorte permet de se protéger des attaques en fournissant une multitude de sources pour appuyer leurs dires.
+Cette cohorte permet de se protéger des attaques en fournissant une multitude de sources pour appuyer leurs dires et bénéficie de larges soutiens, lui donnant un rayonnement impressionnant.
 
 ## La cohorte des _Platistes_
 
@@ -41,7 +41,7 @@ Avez-vous déjà vu la courbe ?
 Non !
 Eh bien voilà, inutile d’en dire plus…
 
-Cette cohorte est très forte pour se construire une renommée.
+Cette cohorte est très forte pour se construire une rayonnement.
 
 ## La cohorte des _9/11_
 
@@ -76,15 +76,43 @@ En début de partie, chaque joueur reçoit 10 cartes :
  - 8 cartes _Partageur_ ;
  - 2 cartes _Trollâillon_.
 
-Il les mélange et forme ainsi son deck de départ.
+Il les mélange et forme ainsi son deck de départ posé face cachée à sa droite (ou sa gauche, peu importe).
 
-Mélangez le reste des cartes et placez les faces cachées au milieu de la table.
-Tirez-en 5 que vous retournez et disposez au centre entre les deux joueurs.
-Ce sont les cartes disponibles à l’achat par les joueurs.
+Positionnez les 10 cartes _Étudiant en L1_ en tas à gauche de la table entre les deux joueurs, face visible.
+
+Mélangez le reste des cartes et placez les en tas face cachée à droite de la table de la table, entre les deux joueurs.
+Tirez-en 5 que vous disposez faces visibles au centre entre les deux joueurs.
+
+Les 5 cartes face visible et les cartes _Étudiant en L1_ sont les cartes disponibles à l’achat par les joueurs.
 
 Chaque joueur note ses points de répartie initiaux (50 par joueur) sur une feuille.
 La partie peut commencer.
 
 # Tour de jeu
 
-Chacun à son tour, les joueurs tirent 5 cartes de leur deck et les jouent les unes après les autres.
+Chacun à son tour, le joueur tire 5 cartes de leur deck et les joue les unes après les autres dans l’ordre de son choix.
+Pour jouer une carte, le joueur la pose face visible devant lui et annonce son nom.
+Lorsque le joueur joue une carte, il doit appliquer ses effets spéciaux le cas échéants.
+Ces potentiels effets sont indiqués dans le cadre blanc de la partie inférieure de la carte.
+
+Additionnez les point d’_affirmation_ (représentés par un poing en haut à gauche de la carte) des cartes jouées en prenant en compte les bonus éventuels.
+Ces points représentent le nombre de dégâts que vous infligez à la crédibilité de votre adversaire.
+Si l’adversaire à une _source_ posée devant lui, les dégâts doivent être suffisants pour la détruire afin de la lui faire défausser.
+Les dégâts restants sont utilisés soit pour détruire une autre carte _source_ s’il en reste, soit pour réduire la crédibilité de l’adversaire.
+
+Additionnez les points de _rayonnement_ (représentés par des rayons de soleil en haut à gauche de la carte) des cartes jouées en prenant en compte les bonus éventuels.
+Ces points représentent le pouvoir d’achat du joueur pour ce tour et lui permet d’acheter de nouvelles cartes parmi celles faces visibles au centre de la table.
+Pour acheter une carte, un jour doit pouvoir payer le prix d’icelle (indiqué par les pièces en haut à droite de la carte).
+Le joueur déduit le prix de la carte achetée de ses points de _rayonnement_.
+Un joueur peut acheter autant de cartes que son _rayonnement_ lui permet.
+
+Dès qu’une des 5 cartes retournées est achetée par un joueur, elle est remplacée par une nouvelle carte de la pile de cartes face cachée.
+
+Le joueur est libre d’arrêter son tour à tout moment, même s’il lui reste des points d’_affirmation_ ou de _rayonnement_ non utilisés.
+
+Une fois le tour fini, le joueur défausse les cartes d’_affirmation_ jouées ce tour, laissant en place les cartes de _source_ en place devant lui.
+Il pioche ensuite 5 nouvelles cartes de son deck.
+
+Lorsque le deck est vide, le joueur mélange sa défausse et repose les cartes face cachée pour former son nouveau deck.
+
+C’est maintenant au tour de l’autre joueur, qui procède de même.
