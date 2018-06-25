@@ -2,3 +2,4 @@ _output/
 ~$*
 .DS_Store
 Gemfile.lock
+.rake_tasks~

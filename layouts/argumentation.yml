@@ -15,6 +15,23 @@ arg:
   valign: middle
   align: left
 
+ren_ico:
+  x: 75
+  y: 180
+  width: 75
+  height: 75
+  font_size: 6
+  valign: middle
+  align: center
+ren:
+  x: 155
+  y: 180
+  width: 50
+  height: 75
+  font_size: 6
+  valign: middle
+  align: left
+
 cost_ico:
   x: 975
   y: 90

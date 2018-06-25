@@ -17,6 +17,9 @@ Squib::Deck.new(width: 1125, height: 825, cards: data.nrows) do
 
   svg data: GameIcons.get('lorc/shield-reflect').string, layout: 'arg_ico'
   text str: data.arg, layout: :arg
+  svg data: data.ren.map { |ren| GameIcons.get('lorc/sunbeams').string unless ren.nil? }, layout: 'ren_ico'
+  text str: data.ren, layout: :ren
+  text str: data.arg, layout: :arg
   svg data: GameIcons.get('delapouite/coins').string, layout: 'cost_ico'
   text str: data.cost, layout: :cost
   svg data: data.art.map { |art| GameIcons.get(art).recolor(fg: '333', bg: 'ccc').string }, layout: 'art'

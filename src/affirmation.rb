@@ -39,6 +39,6 @@ Squib::Deck.new(cards: data.nrows) do
   end
 
   save_png prefix: 'complotistes_affirmation_', trim: 37.5
-  hand range: (2..6), file: 'start.png'
+  hand range: (2..6), file: 'start.png', trim: 37.5
 
 end

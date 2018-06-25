@@ -1,3 +1,3 @@
-title,arg,cost,art,type,description,quote,count
-Lien Internet,2,1,lorc/spider-web,Twitto,"Cette source vous protège tant qu’elle est posée devant vous.","Va voir sur mon Facebook, j’y explique tout.",5
-Étude d’Andrew Wakefield,4,3,delapouite/wax-tablet,Anti-Vax,"Cette source vous protège tant qu’elle est posée devant vous.","Étude réalisée sur un échantillon représentatif de 12 personnes.",3
+title,arg,ren,cost,art,type,description,quote,count
+Obscur lien,2,,1,lorc/spider-web,Twitto,"Cette source vous protège tant qu’elle est posée devant vous.","Va voir sur mon Facebook, j’y explique tout.",5
+Étude d’Andrew Wakefield,4,2,5,delapouite/wax-tablet,Anti-Vax,"Cette source vous protège tant qu’elle est posée devant vous.","Étude réalisée sur un échantillon représentatif de 12 personnes.",3
