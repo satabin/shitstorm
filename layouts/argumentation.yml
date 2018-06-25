@@ -1,4 +1,4 @@
-aff_ico:
+arg_ico:
   x: 75
   y: 90
   width: 75
@@ -6,7 +6,7 @@ aff_ico:
   font_size: 6
   valign: middle
   align: center
-aff:
+arg:
   x: 155
   y: 90
   width: 50
@@ -15,27 +15,13 @@ aff:
   valign: middle
   align: left
 
-ren_ico:
-  x: 75
-  y: 180
-  width: 75
-  height: 75
-ren:
-  x: 155
-  y: 180
-  width: 45
-  height: 75
-  font_size: 6
-  valign: middle
-  align: left
-
 cost_ico:
-  x: 675
+  x: 975
   y: 90
   width: 75
   height: 75
 cost:
-  x: 625
+  x: 925
   y: 90
   width: 45
   height: 75
@@ -46,12 +32,12 @@ cost:
 type:
   x: 215
   y: 90
-  width: 395
+  width: 695
   height: 50
   align: center
 
 art:
-  x: 265
+  x: 412.5
   y: 165
   width: 300
   height: 300
@@ -59,7 +45,7 @@ art:
 title_rect:
   x: 75
   y: 475
-  width: 675
+  width: 975
   height: 60
   stroke_color: '#0000'
 
@@ -68,15 +54,15 @@ title:
   y: 480
   align: center
   valign: middle
-  width: 645
+  width: 945
   height: 50
 
 description:
   x: 100
-  y: 545
-  width: 625
-  height: 275
-  valign: middle
+  y: 550
+  width: 925
+  height: 175
+  valign: top
   align: center
   font_size: 6
 desc: # alias
@@ -84,38 +70,38 @@ desc: # alias
 
 quote_rect:
   x: 90
-  y: 835
-  width: 645
-  height: 175
+  y: 600
+  width: 945
+  height: 115
   radius: 16
   fill_color: '#ccc'
   stroke_color: '#0000'
 
 quote:
   x: 170
-  y: 835
-  width: 475
-  height: 175
+  y: 600
+  width: 795
+  height: 115
   valign: middle
   align: center
   font_size: 6
 
 quote_open:
   x: 95
-  y: 840
+  y: 605
   width: 75
   height: 75
 
 quote_close:
-  x: 655
-  y: 930
+  x: 955
+  y: 635
   width: 75
   height: 75
 
 copyright:
-  x: 75
-  y: 1025
-  width: 675
+  x: 90
+  y: 725
+  width: 975
   height: 25
   font_size: 5
   align: center
@@ -132,15 +118,16 @@ credits:
 cut:
   x: 37.5
   y: 37.5
-  width: 750
-  height: 1050
+  width: 1050
+  height: 750
 
 # The "safe zone" as defined by TheGameCrafter poker cards
 safe:
   x: 75
   y: 75
-  width: 675
-  height: 975
+  width: 975
+  height: 675
   radius: 16
   stroke_color: '#0000'
   fill_color: '#fff'
+

@@ -1,19 +1,12 @@
 require 'squib'
 require 'game_icons'
+require_relative 'colors'
 
 data = Squib.csv file: 'data/affirmations.csv', explode: 'count'
 
 Squib::Deck.new(cards: data.nrows) do
 
-  bg_colors = data.type.map do |tpe|
-    case tpe
-    when "Anti-Vax" then '#4B698B'
-    when "Upéhère" then '#CA6573'
-    when "Platiste" then '#D4AB6A'
-    when "9/11" then '#70B45A'
-    else '#764B8E'
-    end
-  end
+  bg_colors = data.type.map do |tpe| color_by_type(tpe) end
   background color: bg_colors
   use_layout file: 'layouts/affirmation.yml'
 
@@ -26,7 +19,7 @@ Squib::Deck.new(cards: data.nrows) do
   text str: data.aff, layout: :aff
   svg data: data.ren.map { |ren| GameIcons.get('lorc/sunbeams').string unless ren.nil? }, layout: 'ren_ico'
   text str: data.ren, layout: :ren
-  svg data: data.cost.map { |cost| GameIcons.get('delapouite/heart-beats').string unless cost.nil? }, layout: 'cost_ico'
+  svg data: data.cost.map { |cost| GameIcons.get('delapouite/coins').string unless cost.nil? }, layout: 'cost_ico'
   text str: data.cost, layout: :cost
   svg data: data.art.map { |art| GameIcons.get(art).recolor(fg: '333', bg: 'ccc').string }, layout: 'art'
 
@@ -45,5 +38,5 @@ Squib::Deck.new(cards: data.nrows) do
     cut_zone
   end
 
-  save_png prefix: 'complotistes_affirmation_', trim: 37.5, trim_radius: 25
+  save_png prefix: 'complotistes_affirmation_', trim: 37.5
 end
