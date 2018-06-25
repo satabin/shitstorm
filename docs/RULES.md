@@ -31,7 +31,7 @@ Chacune a ses spécificités et plus vous accumulerez de participants dans une c
 
 ## La cohorte des _Anti-Vax_
 
-Que serait l’Internet sans les _Anti-Vax_ et leurs études scientifiques ?
+Que serait l’Internet sans les _Anti-Vax_ et leurs études ?
 
 Cette cohorte permet de se protéger des attaques en fournissant une multitude de sources pour appuyer leurs dires et bénéficie de larges soutiens, lui donnant un rayonnement impressionnant.
 
@@ -39,7 +39,7 @@ Cette cohorte permet de se protéger des attaques en fournissant une multitude d
 
 Avez-vous déjà vu la courbe ?
 Non !
-Eh bien voilà, inutile d’en dire plus…
+Ce sont les scientifiques (improvisés) de nos complots, avides de démonstrations par l’expérience.
 
 Cette cohorte est très forte pour se construire une rayonnement.
 
