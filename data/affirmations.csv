@@ -1,16 +1,14 @@
-title,aff,ren,cost,art,type,description,quote,count
-
-Trollâillon,1,,,delapouite/goblin-head,Twitto,,"Tout le monde le sait.",4
-Partageur,,1,,skoll/troll,Twitto,,"Sa fé réfléchir. #jdcjdr",16
-Étudiant en L1,1,2,2,delapouite/graduate-cap,Twitto,,"Je viens de le voir en TD.",10
-Shitstorm,,,6,lorc/lightning-storm,Twitto,"Vous innondez votre adversaire sous un torrent d’insultes et l’estomaquez momentanément. Profitez-en pour tirer 3 nouvelles cartes et jouez les immédiatement.","Je vais rameuter tous les Kheys, tu feras moins le malin, on va te stalker jusque chez toi.",3
-
-Docteur de renommée,2,4,5,delapouite/plague-doctor-profile,Anti-Vax,"Tout Anti-Vax joué après cette carte pendant ce tour voit ses points de rayonnement doublés.","Ne tombons pas dans la vaccinolâtrie.",1
-Gourou naturel,3,,4,lorc/wheat,Anti-Vax,,"Il suffit de manger sain.",2
-Parent concerné,1,2,2,lorc/voodoo-doll,Anti-Vax,"Gagnez un point de rayonnement pour chaque autre Anti-Vax joué ce tour.","Je refuse d’injecter des doses mortelles d’aluminium dans mon enfant.",4
-Ami d’ami,1,3,3,lorc/two-shadows,Anti-Vax,"","La cousine du beau-père de ma voisine par alliance n’est pas vaccinée et n’est jamais malade.",3
-
-Rationnel,3,1,3,delapouite/thrust-bend,Platiste,"Gagnez un point d’affirmation pour chaque autre Platiste joué ce tour.","Où est la courbe ?",3
-Ingénieux ingénieur,6,2,7,lorc/rocket-flight,Platiste,"Votre initiative fait le buzz, piochez une nouvelle carte.","Grâce à ma fusée je vais vous démontrer que la Terre est plate.",1
-Wannabe scientifique,2,2,3,lorc/drop,Platiste,"","Si la Terre est ronde, pourquoi la bulle reste au milieu de mon niveau quand je prends l’avion ?",4
-Astronome,3,2,4,lorc/moon,Platiste,"","Pourquoi voit-on toujours la même face de la Lune ?",2
+"title","aff","ren","cost","art","type","description","quote","count"
+"Trollâillon",1,,,"delapouite/goblin-head","Twitto",,"Tout le monde le sait.",4
+"Partageur",,1,,"skoll/troll","Twitto",,"Sa fé réfléchir. #jdcjdr",16
+"Étudiant en L1",1,2,2,"delapouite/graduate-cap","Twitto",,"Je viens de le voir en TD.",10
+"Shitstorm",,,6,"lorc/lightning-storm","Twitto","Vous inondez votre adversaire sous un torrent d’insultes et l’estomaquez momentanément. Profitez-en pour tirer 3 nouvelles cartes et jouez-les immédiatement.","Je vais rameuter tous les Kheys, tu feras moins le malin, on va te stalker jusque chez toi.",3
+"Cas Personnel",,,2,"delapouite/blindfold","Twitto","Les sources et les preuves scientifiques, c’est inutile ! Défaussez une source de votre adversaire.","Je n’ai pas besoin des chiffres, j’ai déjà vu personnellement cette situation. C’est ça la réalité.",4
+"Docteur de renommée",2,4,5,"delapouite/plague-doctor-profile","Anti-Vax","Tout Anti-Vax joué après cette carte pendant ce tour voit ses points de rayonnement doublés.","Ne tombons pas dans la vaccinolâtrie.",1
+"Gourou naturel",3,,4,"lorc/wheat","Anti-Vax",,"Il suffit de manger sain.",2
+"Parent concerné",1,2,2,"lorc/voodoo-doll","Anti-Vax","Gagnez un point de rayonnement pour chaque autre Anti-Vax joué ce tour.","Je refuse d’injecter des doses mortelles d’aluminium dans mon enfant.",4
+"Ami d’ami",1,3,3,"lorc/two-shadows","Anti-Vax",,"La cousine du beau-père de ma voisine par alliance n’est pas vaccinée et n’est jamais malade.",3
+"Rationnel",3,1,3,"delapouite/thrust-bend","Platiste","Gagnez un point d’affirmation pour chaque autre Platiste joué ce tour.","Où est la courbe ?",3
+"Ingénieux ingénieur",6,2,7,"lorc/rocket-flight","Platiste","Votre initiative fait le buzz, piochez une nouvelle carte.","Grâce à ma fusée je vais vous démontrer que la Terre est plate.",1
+"Wannabe scientifique",2,2,3,"lorc/drop","Platiste",,"Si la Terre est ronde, pourquoi la bulle reste au milieu de mon niveau quand je prends l’avion ?",4
+"Astronome",3,2,4,"lorc/moon","Platiste",,"Pourquoi voit-on toujours la même face de la Lune ?",2
