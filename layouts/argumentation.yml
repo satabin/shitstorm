@@ -87,31 +87,31 @@ desc: # alias
 
 quote_rect:
   x: 90
-  y: 600
+  y: 610
   width: 945
-  height: 115
+  height: 110
   radius: 16
   fill_color: '#ccc'
   stroke_color: '#0000'
 
 quote:
   x: 170
-  y: 600
+  y: 610
   width: 795
-  height: 115
+  height: 110
   valign: middle
   align: center
   font_size: 6
 
 quote_open:
   x: 95
-  y: 605
+  y: 615
   width: 75
   height: 75
 
 quote_close:
   x: 955
-  y: 635
+  y: 645
   width: 75
   height: 75
 

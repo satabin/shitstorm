@@ -1,3 +1,5 @@
 title,arg,ren,cost,art,type,description,quote,count
-Obscur lien,2,,1,lorc/spider-web,Twitto,"Cette source vous protège tant qu’elle est posée devant vous.","Va voir sur mon Facebook, j’y explique tout.",5
-Étude d’Andrew Wakefield,4,2,5,delapouite/wax-tablet,Anti-Vax,"Cette source vous protège tant qu’elle est posée devant vous.","Étude réalisée sur un échantillon représentatif de 12 personnes.",3
+"Obscur lien",2,,1,lorc/spider-web,Twitto,"Vous protège tant qu’elle est posée devant vous.","Va voir sur mon Facebook, j’y explique tout.",5
+"Étude d’Andrew Wakefield",4,2,5,delapouite/wax-tablet,Anti-Vax,"Vous protège tant qu’elle est posée devant vous.","Étude réalisée sur un échantillon représentatif de 12 personnes.",3
+"L’effroyable best-seller",3,2,4,delapouite/spell-book,"9/11","Vous protège tant qu’elle est posée devant vous. Tout 9/11 joué tant qu’elle est devant vous gagne +1 point d’affirmation.","On voit bien les câbles qui tirent sur le bâtiment pour le faire tomber.",4
+"Site de réouverture",5,,6,delapouite/open-folder,"9/11","Vous protège tant qu’elle est posée devant vous. +1 point d’argumentation si une autre source 9/11 est posée devant vous.","JeT FuEl CaN't MeLt StEeL.",4
