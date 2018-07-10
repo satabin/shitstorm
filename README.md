@@ -1,4 +1,4 @@
-# Complotistes – le jeu de deckbuilding
+# Shitstorm – le jeu de deckbuilding
 
 Attention, ce jeu de crates est un jeu de crates sur le complotimse. Merci de votre compréhension.
 

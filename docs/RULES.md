@@ -1,7 +1,7 @@
 # Intro
 
-Jeu de construction de deck avec les complotistes.
-Jeu pour deux joueurs qui s’affrontent à coup de théories du complot.
+Jeu de construction de deck avec les complotistes et autres trolls.
+Jeu pour deux joueurs qui s’affrontent à coup de théories du complot et de trolls.
 Plus un complot est gros, plus il portera préjudice à l’adversaire.
 Votre but est donc de construire une théorie du complot immense et bien ficelée pour clouer le bec de votre adversaire.
 Accumulez des points de rayonnement pour étendre votre complot et détruire l’argumentation adverse à coup d’affirmations.
