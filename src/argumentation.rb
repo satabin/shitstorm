@@ -27,7 +27,7 @@ Squib::Deck.new(width: 1125, height: 825, cards: data.nrows) do
   text str: data.type, layout: :type
   text str: data.description, layout: :description, stroke_color: '#ccc'
   text str: data.quote, layout: :quote
-  text str: '© 2018 @gnieh_ — licence : CC-BY-SA 4.0',     layout: :copy
+  text str: '© 2018 @gnieh_ — licence CC-BY-SA 4.0',     layout: :copy
 
   svg file: 'opening-quote.svg', layout: 'quote_open'
   svg file: 'closing-quote.svg', layout: 'quote_close'
