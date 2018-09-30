@@ -86,11 +86,18 @@ Tirez-en 5 que vous disposez faces visibles au centre entre les deux joueurs.
 Les 5 cartes face visible et les cartes _Étudiant en L1_ sont les cartes disponibles à l’achat par les joueurs.
 
 Chaque joueur note ses points de répartie initiaux (50 par joueur) sur une feuille.
+
+Le premier joueur est choisi ainsi :
+ - si les deux joueurs ont un compte Twitter, celui qui a bloqué le plus de comptes commence,
+ - en cas d'égalité ou si le nombre est le même, chaque joueur assène tour à tour une raison pour commencer jusqu’à épuisement d’_arguments_, le premier joueur étant le dernier à avoir asséné une _vérité_,
+ - sinon, les deux joueurs peuvent aussi, chose folle, se mettre d’accord sur qui débute.
+
 La partie peut commencer.
 
 # Tour de jeu
 
 Chacun à son tour, le joueur tire 5 cartes de leur deck et les joue les unes après les autres dans l’ordre de son choix.
+Exception faite pour le premier joueur, qui ne tire que 3 cartes à son premier tour (commencer les hostilités c’est bien, mais il ne faudrait pas que cela fausse trop la bataille à venir non plus).
 Pour jouer une carte, le joueur la pose face visible devant lui et annonce son nom.
 Lorsque le joueur joue une carte, il doit appliquer ses effets spéciaux le cas échéants.
 Ces potentiels effets sont indiqués dans le cadre blanc de la partie inférieure de la carte.
