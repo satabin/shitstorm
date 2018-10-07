@@ -39,5 +39,5 @@ Squib::Deck.new(width: 1125, height: 825, cards: data.nrows) do
     cut_zone
   end
 
-  save_png prefix: 'complotistes_argumentation_', trim: 37.5
+  save_png prefix: 'shitstorm_argumentation_', trim: 37.5
 end
