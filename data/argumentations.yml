@@ -1,0 +1,43 @@
+# Les Twittos
+- title: "Obscur lien"
+  arg: 2
+  ren: 1
+  cost:
+  art: lorc/spider-web
+  type: Twitto
+  description: "Vous protège tant qu’elle est posée devant vous."
+  quote: "Va voir sur mon Facebook, j’y explique tout."
+  count: 5
+
+# Les Anti-Vax
+- title: "Étude d’Andrew Wakefield"
+  arg: 4
+  ren: 2
+  cost: 5
+  art: delapouite/wax-tablet
+  type: Anti-Vax
+  description: "Vous protège tant qu’elle est posée devant vous."
+  quote: "Étude réalisée sur un échantillon représentatif de 12 personnes."
+  count: 3
+
+# Les Platistes
+
+# Les 9/11
+- title: "L’effroyable best-seller"
+  arg: 3
+  ren: 2
+  cost: 4
+  art: delapouite/spell-book
+  type: 9/11
+  description: "Vous protège tant qu’elle est posée devant vous. Tout 9/11 joué tant qu’elle est devant vous gagne +1 point d’affirmation."
+  quote: "On voit bien les câbles qui tirent sur le bâtiment pour le faire tomber."
+  count: 4
+- title: "Site de réouverture"
+  arg: 5
+  ren:
+  cost: 6
+  art: delapouite/open-folder
+  type: 9/11
+  description: "Vous protège tant qu’elle est posée devant vous. +1 point d’argumentation si une autre source 9/11 est posée devant vous."
+  quote: "JeT FuEl CaN't MeLt StEeL."
+  count: 4

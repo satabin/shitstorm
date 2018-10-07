@@ -1,0 +1,151 @@
+# Les Twitto (ne pas changer l’ordre des deux premiers éléments)
+- title: "Trollâillon"
+  aff: 1
+  ren:
+  cost:
+  art: delapouite/goblin-head
+  type: Twitto
+  description:
+  quote: "Tout le mode le sait."
+  count: 4
+- title: "Partageur"
+  aff:
+  ren: 1
+  cost:
+  art: skoll/troll
+  type: Twitto
+  description:
+  quote: "Sa fé réfléchir. #jdcjdr"
+  count: 16
+- title: "Étudiant en L1"
+  aff: 1
+  ren: 2
+  cost: 2
+  art: delapouite/graduate-cap
+  type: Twitto
+  description:
+  quote: "Je viens de le voir en TD."
+  count: 10
+- title: "Shitstorm"
+  aff:
+  ren:
+  cost: 6
+  art: lorc/lightning-storm
+  type: Twitto
+  description: "Vous inondez votre adversaire sous un torrent d’insultes et l’estomaquez momentanément. Profitez-en pour tirer 3 nouvelles cartes et jouez-les immédiatement."
+  quote: "Je vais rameuter tous les Kheys, tu feras moins le malin, on va te stalker jusque chez toi."
+  count: 3
+- title: "Cas Personnel"
+  aff:
+  ren:
+  cost: 2
+  art: delapouite/blindfold
+  type: Twitto
+  description: "Les sources et les preuves scientifiques, c’est inutile ! Défaussez une source de votre adversaire."
+  quote: "Je n’ai pas besoin des chiffres, j’ai déjà vu personnellement cette situation. C’est ça la réalité."
+  count: 4
+
+# Les Anti-Vax
+- title: "Docteur de renommée"
+  aff: 2
+  ren: 4
+  cost: 5
+  art: delapouite/plague-doctor-profile
+  type: Anti-Vax
+  description: "Tout Anti-Vax joué après cette carte pendant ce tour voit ses points de rayonnement doublés."
+  quote: "Ne tombons pas dans la vaccinolâtrie."
+  count: 1
+- title: "Gourou naturel"
+  aff: 3
+  ren:
+  cost: 4
+  art: lorc/wheat
+  type: Anti-Vax
+  description:
+  quote: "Il suffit de manger sain."
+  count: 2
+- title: "Parent concerné"
+  aff: 1
+  ren: 2
+  cost: 2
+  art: lorc/voodoo-doll
+  type: Anti-Vax
+  description: "Gagnez un point de rayonnement pour chaque autre Anti-Vax joué ce tour."
+  quote: "Je refuse d’injecter des doses mortelles d’aluminium dans mon enfant."
+  count: 4
+- title: "Ami d’ami"
+  aff: 1
+  ren: 3
+  cost: 3
+  art: lorc/two-shadows
+  type: Anti-Vax
+  description:
+  quote: "La cousine du beau-père de ma voisine par alliance n’est pas vaccinée et n’est jamais malade."
+  count: 3
+
+# Les Platistes
+- title: "Rationnel"
+  aff: 3
+  ren: 1
+  cost: 3
+  art: delapouite/thrust-bend
+  type: Platiste
+  description: "Gagnez un point d’affirmation pour chaque autre Platiste joué ce tour."
+  quote: "Où est la courbe ?"
+  count: 3
+- title: "Ingénieux ingénieur"
+  aff: 6
+  ren: 2
+  cost: 7
+  art: lorc/rocket-flight
+  type: Platiste
+  description: "Votre initiative fait le buzz, piochez une nouvelle carte."
+  quote: "Grâce à ma fusée je vais vous démontrer que la Terre est plate."
+  count: 1
+- title: "Wannabe scientifique"
+  aff: 2
+  ren: 2
+  cost: 3
+  art: lorc/drop
+  type: Platiste
+  description:
+  quote: "Si la Terre est ronde, pourquoi la bulle reste au milieu de mon niveau quand je prends l’avion ?"
+  count: 4
+- title: "Astronome"
+  aff: 3
+  ren: 2
+  cost: 4
+  art: lorc/moon
+  type: Platiste
+  description:
+  quote: "Pourquoi voit-on toujours la même face de la Lune ?"
+  count: 2
+
+# Les 9/11
+- title: "Acteur sympathisant"
+  aff: 1
+  ren: 1
+  cost: 4
+  art: lorc/duality-mask
+  type: 9/11
+  description: "Multipliez les points d’affirmation et de rayonnement de cette carte par 3 si vous avez joué une autre personnalité sympathisante 9/11 ce tour."
+  quote: "Comment on peut faire tomber trois tours avec deux avions ?"
+  count: 1
+- title: "Actrice sympathisante"
+  aff: 1
+  ren: 1
+  cost: 4
+  art: lorc/duality-mask
+  type: 9/11
+  description: "Multipliez les points d’affirmation et de rayonnement de cette carte par 3 si vous avez joué une autre personnalité sympathisante 9/11 ce tour."
+  quote: "Je pense qu'on nous ment sur énormément de choses."
+  count: 1
+- title: "Comique sympathisant"
+  aff: 1
+  ren: 1
+  cost: 4
+  art: lorc/duality-mask
+  type: 9/11
+  description: "Multipliez les points d’affirmation et de rayonnement de cette carte par 3 si vous avez joué une autre personnalité sympathisante 9/11 ce tour."
+  quote: "Il n'y a jamais eu d'avion."
+  count: 1

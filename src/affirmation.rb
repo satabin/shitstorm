@@ -2,7 +2,7 @@ require 'squib'
 require 'game_icons'
 require_relative 'colors'
 
-data = Squib.csv file: 'data/affirmations.csv', explode: 'count'
+data = Squib.yaml file: 'data/affirmations.yml', explode: 'count'
 
 Squib::Deck.new(cards: data.nrows) do
 
