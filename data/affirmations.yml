@@ -42,7 +42,7 @@
   art: lorc/hydra
   type: Twitto
   description: "Quoi de mieux pour faire passer ses arguments que de le faire via de multiples comptes ? Choisissez une carte affirmation de votre choix jouée ce tour et doublez ses points d’affirmation et de rayonnement."
-  quote: ""
+  quote: "Oui, ces twittos sont toujours du même avis que moi et font les mêmes fautes d'orthographe, mais ce n'est qu'une coïncidence."
   count: 3
 - title: "Ragequit"
   aff:
