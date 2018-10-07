@@ -10,7 +10,7 @@ Chaque carte est composée des éléments suivants :
  - un nom ;
  - une cohorte (9/11, Anti-Vax, ...) ;
  - une catégorie (troll, étude « scientifique », ...) ;
- - optionnellement une action décrite par un court texte ;
+ - de manière optionnelle une action décrite par un court texte ;
  - une citation (tirée d’un tweet réel d’un complotiste de ce style) ;
  - des valeurs parmi les suivantes :
    - affirmation (attaque),
@@ -117,9 +117,29 @@ Dès qu’une des 5 cartes retournées est achetée par un joueur, elle est remp
 
 Le joueur est libre d’arrêter son tour à tout moment, même s’il lui reste des points d’_affirmation_ ou de _rayonnement_ non utilisés.
 
-Une fois le tour fini, le joueur défausse les cartes d’_affirmation_ jouées ce tour, laissant en place les cartes de _source_ en place devant lui.
+Une fois le tour fini, le joueur défausse les cartes d’_affirmation_ jouées ce tour, laissant les cartes de _source_ en place devant lui.
 Il pioche ensuite 5 nouvelles cartes de son deck.
 
 Lorsque le deck est vide, le joueur mélange sa défausse et repose les cartes face cachée pour former son nouveau deck.
 
 C’est maintenant au tour de l’autre joueur, qui procède de même.
+
+# Vocabulaire
+
+Certaines cartes ont des effets spéciaux en dehors de points d’affirmation et de rayonnement. Bien que ces effets soient assez explicites sur les cartes en question voilà une explication de chacun d’eux.
+
+## Cartes jouées
+
+À chaque tour, les joueurs jouent 5 cartes piochées de leur deck.
+Certaines cartes permettent de modifier les effets des _cartes jouées_, qui réfère aux cartes posées devant le joueur.
+
+## Défaussement de carte
+
+Certaines cartes permettent de _défausser_ des cartes de son jeu ou de celui de l’adversaire.
+Cela signifie qu’une carte jouée est mise dans la défausse du joueur cible.
+Elle réintégrera le deck du joueur normalement lors du prochain renouvellement de deck.
+
+## Élimination de carte
+
+Certaines cartes permettent d’_éliminer_ des cartes de son jeu.
+Cela signifie que les cartes sont mises de côté jusqu’à la fin de la partie et ne peut plus être jouée ou achetée.
