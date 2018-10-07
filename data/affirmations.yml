@@ -35,6 +35,15 @@
   description: "Vous inondez votre adversaire sous un torrent d’insultes et l’estomaquez momentanément. Profitez-en pour tirer 3 nouvelles cartes et jouez-les immédiatement."
   quote: "Je vais rameuter tous les Kheys, tu feras moins le malin, on va te stalker jusque chez toi."
   count: 3
+- title: "Ragequit"
+  aff:
+  ren:
+  cost: 4
+  art: delapouite/exit-door
+  type: Twitto
+  description: "Votre compte est connu comme troll et tout le monde vous a bloqué ? Fermez le pour revenir plus en forme. Éliminez une carte affirmation posée devant vous ou de votre défausse."
+  quote: "ON ME CENSURE !"
+  count: 2
 - title: "Cas Personnel"
   aff:
   ren:
