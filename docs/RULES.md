@@ -1,4 +1,6 @@
-# Intro
+# Règles du jeu
+
+## Intro
 
 Jeu de construction de deck avec les complotistes et autres trolls.
 Jeu pour deux joueurs qui s’affrontent à coup de théories du complot et de trolls.
@@ -18,7 +20,7 @@ Chaque carte est composée des éléments suivants :
    - rayonnement (argent) ;
  - un coût d’achat en rayonnement.
 
-# Cohortes
+## Cohortes
 
 Les trolls et complotistes se groupent en cohortes.
 Il en existe 4 :
@@ -29,13 +31,13 @@ Il en existe 4 :
 
 Chacune a ses spécificités et plus vous accumulerez de participants dans une cohorte, plus elle sera forte en rayonnement et en capacité à affirmer sans se faire contredire.
 
-## La cohorte des _Anti-Vax_
+### La cohorte des _Anti-Vax_
 
 Que serait l’Internet sans les _Anti-Vax_ et leurs études ?
 
 Cette cohorte permet de se protéger des attaques en fournissant une multitude de sources pour appuyer leurs dires et bénéficie de larges soutiens, lui donnant un rayonnement impressionnant.
 
-## La cohorte des _Platistes_
+### La cohorte des _Platistes_
 
 Avez-vous déjà vu la courbe ?
 Non !
@@ -43,18 +45,18 @@ Ce sont les scientifiques (improvisés) de nos complots, avides de démonstratio
 
 Cette cohorte est très forte pour se construire une rayonnement.
 
-## La cohorte des _9/11_
+### La cohorte des _9/11_
 
 Incontournables du XXIe siècle, les persuadés du complot du 11 septembre feront tout pour faire bégayer leur adversaire.
 
 De toute manière, si vous ne les croyez pas, c’est que vous êtes un agent du Mossad ou de la CIA. CQFD.
 
-## La cohorte des _Twittos_
+### La cohorte des _Twittos_
 
 Les _Twittos_ sont une cohorte à part, ils ne se coordonnent pas, mais peuvent faire très mal.
 Ils peuvent venir aider un autre complot, qui les dépasse, et sont une bonne cohorte d’appoint pour renforcer son complot.
 
-# Types de cartes
+## Types de cartes
 
 Il existe différents types de cartes :
  - les _affirmations_, qui permettent de détruire la crédibilité adverse ;
@@ -64,13 +66,13 @@ Il existe différents types de cartes :
 
 Une source protège la répartie du joueur, et doit être détruite avant que sa crédibilité ne soit entamée.
 
-# But du jeu
+## But du jeu
 
 Chaque joueur commence la partie avec 50 points de répartie.
 Le premier joueur qui atteint 0 a perdu et son adversaire est déclaré vainqueur.
 Protégez vous derrière des argumentaires bancals afin de ne pas perdre la face trop rapidement.
 
-# Mise en place
+## Mise en place
 
 En début de partie, chaque joueur reçoit 10 cartes :
  - 8 cartes _Partageur_ ;
@@ -94,7 +96,7 @@ Le premier joueur est choisi ainsi :
 
 La partie peut commencer.
 
-# Tour de jeu
+## Tour de jeu
 
 Chacun à son tour, le joueur tire 5 cartes de leur deck et les joue les unes après les autres dans l’ordre de son choix.
 Exception faite pour le premier joueur, qui ne tire que 3 cartes à son premier tour (commencer les hostilités c’est bien, mais il ne faudrait pas que cela fausse trop la bataille à venir non plus).
@@ -124,22 +126,22 @@ Lorsque le deck est vide, le joueur mélange sa défausse et repose les cartes f
 
 C’est maintenant au tour de l’autre joueur, qui procède de même.
 
-# Vocabulaire
+## Vocabulaire
 
 Certaines cartes ont des effets spéciaux en dehors de points d’affirmation et de rayonnement. Bien que ces effets soient assez explicites sur les cartes en question voilà une explication de chacun d’eux.
 
-## Cartes jouées
+### Cartes jouées
 
 À chaque tour, les joueurs jouent 5 cartes piochées de leur deck.
 Certaines cartes permettent de modifier les effets des _cartes jouées_, qui réfère aux cartes posées devant le joueur.
 
-## Défaussement de carte
+### Défaussement de carte
 
 Certaines cartes permettent de _défausser_ des cartes de son jeu ou de celui de l’adversaire.
 Cela signifie qu’une carte jouée est mise dans la défausse du joueur cible.
 Elle réintégrera le deck du joueur normalement lors du prochain renouvellement de deck.
 
-## Élimination de carte
+### Élimination de carte
 
 Certaines cartes permettent d’_éliminer_ des cartes de son jeu.
 Cela signifie que les cartes sont mises de côté jusqu’à la fin de la partie et ne peut plus être jouée ou achetée.

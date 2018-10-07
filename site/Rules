@@ -1,0 +1,34 @@
+#!/usr/bin/env ruby
+
+compile '/index.html' do
+  layout '/default.*'
+  filter :typogruby
+  write '/index.html'
+end
+
+compile '/**/*.html' do
+  layout '/default.*'
+  filter :typogruby
+end
+
+compile '/**/*.md' do
+  filter :mustache
+  filter :kramdown, input: "GFM"
+  layout '/default.*'
+  filter :add_toc if @item[:toc]
+  filter :typogruby
+end
+
+compile '/**/*' do
+  write item.identifier.to_s
+end
+
+route '/index.html' do
+  item.identifier
+end
+
+route '/**/*.{html,md}' do
+  item.identifier.without_ext + '/index.html'
+end
+
+layout '/**/*', :mustache
