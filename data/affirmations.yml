@@ -35,6 +35,15 @@
   description: "Vous inondez votre adversaire sous un torrent d’insultes et l’estomaquez momentanément. Profitez-en pour tirer 3 nouvelles cartes et jouez-les immédiatement."
   quote: "Je vais rameuter tous les Kheys, tu feras moins le malin, on va te stalker jusque chez toi."
   count: 3
+- title: "Multi-compte"
+  aff:
+  ren:
+  cost: 5
+  art: lorc/hydra
+  type: Twitto
+  description: "Quoi de mieux pour faire passer ses arguments que de le faire via de multiples comptes ? Choisissez une carte affirmation de votre choix jouée ce tour et doublez ses points d’affirmation et de rayonnement."
+  quote: ""
+  count: 3
 - title: "Ragequit"
   aff:
   ren:
