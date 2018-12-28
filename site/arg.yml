@@ -1,0 +1,4 @@
+img_dir: ../img
+progress_bars: true
+dir: tmp/squib
+prefix: argumentation_

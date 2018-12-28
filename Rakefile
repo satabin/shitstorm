@@ -13,13 +13,13 @@ task all: [:with_pnp, :with_proofs, :deck]
 
 desc 'Build the deck'
 task(:deck)     {
-  load 'src/affirmation.rb'
-  load 'src/argumentation.rb'
+  load 'src/make_affirmation.rb'
+  load 'src/make_argumentation.rb'
 }
 
-task(:aff)     { load 'src/affirmation.rb' }
+task(:aff)     { load 'src/make_affirmation.rb' }
 
-task(:arg)     { load 'src/argumentation.rb' }
+task(:arg)     { load 'src/make_argumentation.rb' }
 
 desc 'Enable proof lines'
 task(:with_proofs) do

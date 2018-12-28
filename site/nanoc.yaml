@@ -13,6 +13,7 @@ data_sources:
   - type: filesystem
     encoding: utf-8
   - type: rules
+  - type: cards
 
 deploy:
   default:

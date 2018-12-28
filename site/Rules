@@ -7,7 +7,9 @@ compile '/index.html' do
 end
 
 compile '/**/*.html' do
+  filter :erb
   layout '/default.*'
+  filter :add_toc if @item[:toc]
   filter :typogruby
 end
 
@@ -17,6 +19,10 @@ compile '/**/*.md' do
   layout '/default.*'
   filter :add_toc if @item[:toc]
   filter :typogruby
+end
+
+compile '/cards/**/*.png', rep: :thumbnail do
+  filter :thumbnailize, width: 200
 end
 
 compile '/**/*' do
@@ -29,6 +35,10 @@ end
 
 route '/**/*.{html,md}' do
   item.identifier.without_ext + '/index.html'
+end
+
+route '/cards/**/*.png', rep: :thumbnail do
+  item.identifier.without_ext + '-thumbnail.' + item.identifier.ext
 end
 
 layout '/**/*', :mustache

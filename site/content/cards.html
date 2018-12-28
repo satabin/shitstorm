@@ -1,0 +1,50 @@
+---
+title: Les cartes
+toc: true
+---
+
+<h1>Les cartes</h1>
+
+<h2 id="aff">Les affirmations</h2>
+
+<table>
+  <tr>
+    <th>Image</th>
+    <th>Caractéristiques</th>
+  </tr>
+  <% @items.find_all('/cards/affirmations/*').each do |img| %>
+  <tr>
+    <td><a href="<%= img.path %>"><img src="<%= img.path(rep: :thumbnail) %>"/></a></td>
+    <td>
+      <ul>
+        <li>Coût : <%= img[:cost] %></li>
+        <li>Valeur d'affirmation : <%= img[:aff] %></li>
+        <li>Valeur de renommée : <%= img[:ren] %></li>
+        <li>Nombre dans le jeu : <%= img[:count] %></li>
+      </ul>
+    </td>
+  </tr>
+  <% end %>
+</table>
+
+<h2 id="arg">Les argumentations</h2>
+
+<table>
+  <tr>
+    <th>Image</th>
+    <th>Caractéristiques</th>
+  </tr>
+  <% @items.find_all('/cards/argumentations/*').each do |img| %>
+  <tr>
+    <td><a href="<%= img.path %>"><img src="<%= img.path(rep: :thumbnail) %>"/></a></td>
+    <td>
+      <ul>
+        <li>Coût : <%= img[:cost] %></li>
+        <li>Valeur d'argumentation : <%= img[:arg] %></li>
+        <li>Valeur de renommée : <%= img[:ren] %></li>
+        <li>Nombre dans le jeu : <%= img[:count] %></li>
+      </ul>
+    </td>
+  </tr>
+  <% end %>
+</table>
