@@ -22,7 +22,7 @@ compile '/**/*.md' do
 end
 
 compile '/cards/**/*.png', rep: :thumbnail do
-  filter :thumbnailize, width: 200
+  filter :thumbnailize, width: 100
 end
 
 compile '/**/*' do

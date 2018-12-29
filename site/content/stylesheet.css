@@ -60,6 +60,20 @@ a:hover {
   list-style-type: square;
 }
 
+.card-description {
+  padding-left: 10px;
+  border: solid 1px;
+}
+
+.card-image {
+  border: solid 1px;
+  padding: 10px;
+}
+
+.cards {
+  border-collapse: collapse;
+}
+
 #sidebar {
   position: fixed;
 
