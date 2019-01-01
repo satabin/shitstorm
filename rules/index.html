@@ -2,14 +2,42 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Shitstorm - Règles du jeu</title>
-    <link rel="stylesheet" href="/stylesheet.css">
+    <title>#Shitstorm - Règles du jeu</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/css/materialize.min.css" media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scala=1.0"/>
+
 
     <meta name="generator" content="Nanoc">
   </head>
   <body>
-    <div id="main">
-      
+    <header>
+      <div class="navbar-fixed">
+        <nav class="blue-grey darken-2">
+          <a href="#" data-target="collapsed" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <div class="nav-wrapper">
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+              <li><a href="/">Accueil</a></li>
+              <li><a href="/rules/">Règles du&nbsp;jeu</a></li>
+              <li><a href="/cards/">Cartes</a></li>
+            </ul>
+          </div>
+          <div class="nav-content">
+          </div>
+        </nav>
+      </div>
+
+    </header>
+
+    <ul class="sidenav" id="collapsed">
+      <li><a href="/">Accueil</a></li>
+      <li><a href="/rules/">Règles du&nbsp;jeu</a></li>
+      <li><a href="/cards/">Cartes</a></li>
+    </ul>
+
+    <main>
+      <div class="container">
+        
 <h2 id="intro">Intro</h2>
 
 <p>Jeu de construction de deck avec les complotistes et autres trolls.<br />
@@ -169,20 +197,23 @@ Elle réintégrera le deck du joueur normalement lors du prochain renouvellement
 <p>Certaines cartes permettent d’<em>éliminer</em> des cartes de son jeu.<br />
 Cela signifie que les cartes sont mises de côté jusqu’à la fin de la partie et ne peut plus être jouée ou&nbsp;achetée.</p>
 
-    </div>
-    <div id="sidebar">
-      <ul>
-        <li><a href="/">Accueil</a></li>
-        <li><a href="/rules/">Règles du&nbsp;jeu</a></li>
-        <li><a href="/cards/">Cartes</a></li>
-      </ul>
+      </div>
+    </main>
 
-        <h2>Règles du&nbsp;jeu</h2>
-        <ol><li><a href="#intro">Intro</a></li><li><a href="#cohortes">Cohortes</a></li><ol><li><a href="#la-cohorte-des-anti-vax">La cohorte des <em>Anti-Vax</em></a></li><li><a href="#la-cohorte-des-platistes">La cohorte des <em>Platistes</em></a></li><li><a href="#la-cohorte-des-911">La cohorte des <em>9/11</em></a></li><li><a href="#la-cohorte-des-twittos">La cohorte des <em>Twittos</em></a></li></ol><li><a href="#types-de-cartes">Types de&nbsp;cartes</a></li><li><a href="#but-du-jeu">But du&nbsp;jeu</a></li><li><a href="#mise-en-place">Mise en&nbsp;place</a></li><li><a href="#tour-de-jeu">Tour de&nbsp;jeu</a></li><li><a href="#vocabulaire">Vocabulaire</a></li><ol><li><a href="#cartes-jouées">Cartes&nbsp;jouées</a></li><li><a href="#défaussement-de-carte">Défaussement de&nbsp;carte</a></li><li><a href="#élimination-de-carte">Élimination de&nbsp;carte</a></li></ol></ol>
-    </div>
-    <footer>
-      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
-      Copyright © 2018 <a href="https://twitter.com/gnieh_">@gnieh_</a>
+    <footer class="page-footer blue-grey lighten-2">
+      <div class="footer-copyright blue-grey darken-2">
+        <div class="container">
+          Copyright © 2018 <a class="grey-text text-lighten-4" href="https://twitter.com/gnieh_">@gnieh_</a>
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" class="grey-text text-lighten-4 right" /></a>
+        </div>
+      </div>
     </footer>
+
+    <script type="text/javascript" src="/js/materialize.min.js"></script>&nbsp;<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems, {});
+    });
+    </script>
   </body>
 </html>
