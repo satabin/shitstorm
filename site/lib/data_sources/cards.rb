@@ -20,12 +20,16 @@ Class.new(Nanoc::DataSource) do
       aff = aff_data['aff'][idx]
       ren = aff_data['ren'][idx]
       cost = aff_data['cost'][idx]
+      title = aff_data['title'][idx]
+      desc = aff_data['description'][idx]
       attributes = {
         count: count,
         aff: aff,
         ren: ren,
         cost: cost,
-        type: 'affirmation'
+        type: 'affirmation',
+        title: title,
+        desc: desc
       }
       identifier = "/cards/affirmations/#{idx}.png"
       new_item(File.absolute_path(file), attributes, identifier, binary: true)

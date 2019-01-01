@@ -11,40 +11,56 @@ Cette page référencie toutes les cartes présentes dans le jeu et leur caract�
 
 <h2 id="aff">Les affirmations</h2>
 
-<p>
-<table class="cards">
-  <% @items.find_all('/cards/affirmations/*').each do |img| %>
-  <tr>
-    <td class="card-image"><a href="<%= img.path %>"><img src="<%= img.path(rep: :thumbnail) %>"/></a></td>
-    <td class="card-description">
-      <ul>
-        <li>Coût&nbsp;: <%= img[:cost] || 0 %></li>
-        <li>Valeur d'affirmation&nbsp;: <%= img[:aff] %></li>
-        <li>Valeur de renommée&nbsp;: <%= img[:ren] %></li>
-        <li>Nombre dans le jeu&nbsp;: <%= img[:count] %></li>
-      </ul>
-    </td>
-  </tr>
-  <% end %>
-</table>
-</p>
+<div class="row">
+<% @items.find_all('/cards/affirmations/*').each do |card| %>
+  <div class="col s12 m12 l6">
+    <h4 class="header"><%= card[:title] %></h4>
+    <div class="card horizontal">
+      <div class="card-image">
+        <a href="<%= card.path %>"><img src="<%= card.path(rep: :thumbnail) %>"/></a>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <% if card[:desc] %>
+          <p><%= card[:desc] %></p>
+          <% end %>
+          <ul>
+            <li>Coût&nbsp;: <%= card[:cost] || 0 %></li>
+            <li>Valeur d'affirmation&nbsp;: <%= card[:aff] %></li>
+            <li>Valeur de renommée&nbsp;: <%= card[:ren] %></li>
+            <li>Nombre dans le jeu&nbsp;: <%= card[:count] %></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>
+</div>
 
 <h2 id="arg">Les argumentations</h2>
 
-<p>
-<table class="cards">
-  <% @items.find_all('/cards/argumentations/*').each do |img| %>
-  <tr>
-    <td class="card-image"><a href="<%= img.path %>"><img src="<%= img.path(rep: :thumbnail) %>"/></a></td>
-    <td class="card-description">
-      <ul>
-        <li>Coût&nbsp;: <%= img[:cost] || 0 %></li>
-        <li>Valeur d'argumentation&nbsp;: <%= img[:arg] %></li>
-        <li>Valeur de renommée&nbsp;: <%= img[:ren] %></li>
-        <li>Nombre dans le jeu&nbsp;: <%= img[:count] %></li>
-      </ul>
-    </td>
-  </tr>
-  <% end %>
-</table>
-</p>
+<div class="row">
+<% @items.find_all('/cards/argumentations/*').each do |card| %>
+  <div class="col s12 m12 l6">
+    <h4 class="header"><%= card[:title] %></h4>
+    <div class="card horizontal">
+      <div class="card-image">
+        <a href="<%= card.path %>"><img src="<%= card.path(rep: :thumbnail) %>"/></a>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <% if card[:desc] %>
+          <p><%= card[:desc] %></p>
+          <% end %>
+          <ul>
+            <li>Coût&nbsp;: <%= card[:cost] || 0 %></li>
+            <li>Valeur d'argumentation&nbsp;: <%= card[:arg] %></li>
+            <li>Valeur de renommée&nbsp;: <%= card[:ren] %></li>
+            <li>Nombre dans le jeu&nbsp;: <%= card[:count] %></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>
+</div>

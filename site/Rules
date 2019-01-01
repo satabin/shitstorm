@@ -9,7 +9,6 @@ end
 compile '/**/*.html' do
   filter :erb
   layout '/default.*'
-  filter :add_toc if @item[:toc]
   filter :typogruby
 end
 
@@ -17,12 +16,11 @@ compile '/**/*.md' do
   filter :mustache
   filter :kramdown, input: "GFM"
   layout '/default.*'
-  filter :add_toc if @item[:toc]
   filter :typogruby
 end
 
 compile '/cards/**/*.png', rep: :thumbnail do
-  filter :thumbnailize, width: 100
+  filter :thumbnailize, width: 200
 end
 
 compile '/**/*' do

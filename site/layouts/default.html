@@ -2,30 +2,60 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Shitstorm - {{ title }}</title>
-    <link rel="stylesheet" href="/stylesheet.css">
+    <title>#Shitstorm - {{ title }}</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/css/materialize.min.css" media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scala=1.0"/>
+
 
     <meta name="generator" content="Nanoc">
   </head>
   <body>
-    <div id="main">
-      {{{ yield }}}
-    </div>
-    <div id="sidebar">
-      <ul>
-        <li><a href="/">Accueil</a></li>
-        <li><a href="/rules/">Règles du jeu</a></li>
-        <li><a href="/cards/">Cartes</a></li>
-      </ul>
+    <header>
+      <div class="navbar-fixed">
+        <nav class="blue-grey darken-2">
+          <a href="#" data-target="collapsed" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <div class="nav-wrapper">
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+              <li><a href="/">Accueil</a></li>
+              <li><a href="/rules/">Règles du jeu</a></li>
+              <li><a href="/cards/">Cartes</a></li>
+            </ul>
+          </div>
+          <div class="nav-content">
+          </div>
+        </nav>
+      </div>
 
-      {{#toc}}
-        <h2>{{ title }}</h2>
-        <<TOC>>
-      {{/toc}}
-    </div>
-    <footer>
-      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
-      Copyright © 2018 <a href="https://twitter.com/gnieh_">@gnieh_</a>
+    </header>
+
+    <ul class="sidenav" id="collapsed">
+      <li><a href="/">Accueil</a></li>
+      <li><a href="/rules/">Règles du jeu</a></li>
+      <li><a href="/cards/">Cartes</a></li>
+    </ul>
+
+    <main>
+      <div class="container">
+        {{{ yield }}}
+      </div>
+    </main>
+
+    <footer class="page-footer blue-grey lighten-2">
+      <div class="footer-copyright blue-grey darken-2">
+        <div class="container">
+          Copyright © 2018 <a class="grey-text text-lighten-4" href="https://twitter.com/gnieh_">@gnieh_</a>
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" class="grey-text text-lighten-4 right" /></a>
+        </div>
+      </div>
     </footer>
+
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+    <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems, {});
+    });
+    </script>
   </body>
 </html>
