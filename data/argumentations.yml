@@ -19,8 +19,27 @@
   description: "Vous protège tant qu’elle est posée devant vous."
   quote: "Étude réalisée sur un échantillon représentatif de 12 personnes."
   count: 3
+- title: "Big Pharma"
+  arg: 5
+  ren: 3
+  cost: 6
+  art: medicine-pills
+  type: Anti-Vax
+  description: "Vous protège tant qu’elle est posée devant vous."
+  quote: "Les vaccins obligatoires, c’est juste pour enrichir le lobby pharmaceutique."
+  count: 2
+- title: "Pox Party"
+  arg: 3
+  ren: 1
+  cost: 3
+  art: delapouite/party-flags
+  type: Anti-Vax
+  description: "Vous protège tant qu’elle est posée devant vous."
+  quote: "De mon temps on faisait une fête avec les enfants qui avaient la varicelle comme ça après on était immunisé."
+  count: 5
 
 # Les Platistes
+# À priori on ne va pas ajouter de carte d’argumentation pour cette cohorte, elle apporte surtout du rayonnement.
 
 # Les 9/11
 - title: "L’effroyable best-seller"
@@ -31,7 +50,7 @@
   type: 9/11
   description: "Vous protège tant qu’elle est posée devant vous. Tout 9/11 joué tant qu’elle est devant vous gagne +1 point d’affirmation."
   quote: "On voit bien les câbles qui tirent sur le bâtiment pour le faire tomber."
-  count: 4
+  count: 2
 - title: "Site de réouverture"
   arg: 5
   ren:
@@ -40,4 +59,4 @@
   type: 9/11
   description: "Vous protège tant qu’elle est posée devant vous. +1 point d’argumentation si une autre source 9/11 est posée devant vous."
   quote: "JeT FuEl CaN't MeLt StEeL."
-  count: 4
+  count: 2
