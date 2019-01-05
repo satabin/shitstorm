@@ -17,6 +17,8 @@ task(:deck)     {
   load 'src/make_argumentation.rb'
 }
 
+Squib.enable_build_globally :hand
+
 task(:aff)     { load 'src/make_affirmation.rb' }
 
 task(:arg)     { load 'src/make_argumentation.rb' }
