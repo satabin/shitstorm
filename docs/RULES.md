@@ -35,7 +35,7 @@ Chacune a ses spécificités et plus vous accumulerez de participants dans une c
 
 Que serait l’Internet sans les _Anti-Vax_ et leurs études ?
 
-Cette cohorte permet de se protéger des attaques en fournissant une multitude de sources pour appuyer leurs dires et bénéficie de larges soutiens, lui donnant un rayonnement impressionnant.
+Cette cohorte permet de se protéger des attaques en fournissant une multitude de sources pour appuyer leurs dires et bénéficie de larges soutiens, lui donnant une crédibilité impressionnante et pas toujours facile a démonter.
 
 ### La cohorte des _Platistes_
 
@@ -43,7 +43,7 @@ Avez-vous déjà vu la courbe ?
 Non !
 Ce sont les scientifiques (improvisés) de nos complots, avides de démonstrations par l’expérience.
 
-Cette cohorte est très forte pour se construire un rayonnement.
+Cette cohorte est très forte pour se construire un rayonnement mais elle ne vous ne résistera pas longtemps si vous argumentez un peu (même de manière fallacieuse).
 
 ### La cohorte des _9/11_
 
