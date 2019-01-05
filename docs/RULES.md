@@ -43,7 +43,7 @@ Avez-vous déjà vu la courbe ?
 Non !
 Ce sont les scientifiques (improvisés) de nos complots, avides de démonstrations par l’expérience.
 
-Cette cohorte est très forte pour se construire une rayonnement.
+Cette cohorte est très forte pour se construire un rayonnement.
 
 ### La cohorte des _9/11_
 
