@@ -39,6 +39,11 @@ def make_aff_deck(data, layout, prefix, config: 'config.yml')
     save_png dir: conf.dir, prefix: prefix, trim: 37.5
 
     build :hand do
+      indices = (0..data.nrows - 1).to_a.sample(5)
+      hand range: indices, file: 'hand.png', trim: 37.5
+    end
+
+    build :start do
       hand range: (2..6), file: 'start.png', trim: 37.5
     end
 

@@ -9,15 +9,13 @@ desc 'By default, just build the deck without extra options'
 task default: [:deck]
 
 desc 'Build everything, with all the options'
-task all: [:with_pnp, :with_proofs, :deck]
+task all: [:start_hand, :deck]
 
 desc 'Build the deck'
 task(:deck)     {
   load 'src/make_affirmation.rb'
   load 'src/make_argumentation.rb'
 }
-
-Squib.enable_build_globally :hand
 
 task(:aff)     { load 'src/make_affirmation.rb' }
 
@@ -33,4 +31,10 @@ desc 'Enable print-and-play builds'
 task(:with_pnp) do
   puts "Enabling print-and-play builds."
   Squib.enable_build_globally :pnp
+end
+
+desc 'Enable start hand builds'
+task(:start_hand) do
+  puts "Enabling starting hand builds."
+  Squib.enable_build_globally :start
 end
