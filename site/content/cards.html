@@ -13,8 +13,8 @@ Cette page référencie toutes les cartes présentes dans le jeu et leur caract�
 
 <div class="row">
 <% @items.find_all('/cards/affirmations/*').each do |card| %>
-  <div class="col s12 m12 l6">
-    <h4 class="header"><%= card[:title] %></h4>
+  <div id="<%= card[:anchor] %>" class="col s12 m12 l6">
+    <h4 class="header"><%= card[:title] %><a href="#<%= card[:anchor] %>" class="grey-text"><i class="material-icons">link</i></a></h4>
     <div class="card horizontal">
       <div class="card-image">
         <img class="materialboxed" width="200" src="<%= card.path %>"/>
@@ -41,8 +41,8 @@ Cette page référencie toutes les cartes présentes dans le jeu et leur caract�
 
 <div class="row">
 <% @items.find_all('/cards/argumentations/*').each do |card| %>
-  <div class="col s12 m12 l6">
-    <h4 class="header"><%= card[:title] %></h4>
+  <div id="<%= card[:anchor] %>" class="col s12 m12 l6">
+    <h4 class="header"><%= card[:title] %><a href="#<%= card[:anchor] %>" class="grey-text"><i class="material-icons">link</i></a></h4>
     <div class="card horizontal">
       <div class="card-image">
         <img class="materialboxed" width="200" src="<%= card.path %>"/>

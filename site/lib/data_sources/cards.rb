@@ -22,6 +22,7 @@ Class.new(Nanoc::DataSource) do
       cost = aff_data['cost'][idx]
       title = aff_data['title'][idx]
       desc = aff_data['description'][idx]
+      anchor = title.downcase(:ascii).gsub(/[^\p{Word}\- ]/u, '').tr(' ', '-')
       attributes = {
         count: count,
         aff: aff,
@@ -29,7 +30,8 @@ Class.new(Nanoc::DataSource) do
         cost: cost,
         type: 'affirmation',
         title: title,
-        desc: desc
+        desc: desc,
+        anchor: anchor
       }
       identifier = "/cards/affirmations/#{idx}.png"
       new_item(File.absolute_path(file), attributes, identifier, binary: true)
@@ -43,6 +45,7 @@ Class.new(Nanoc::DataSource) do
       cost = arg_data['cost'][idx]
       title = arg_data['title'][idx]
       desc = arg_data['description'][idx]
+      anchor = title.downcase(:ascii).gsub(/[^\p{Word}\- ]/u, '').tr(' ', '-')
       attributes = {
         count: count,
         arg: arg,
@@ -50,7 +53,8 @@ Class.new(Nanoc::DataSource) do
         cost: cost,
         type: 'argumentation',
         title: title,
-        desc: desc
+        desc: desc,
+        anchor: anchor
       }
       identifier = "/cards/argumentations/#{idx}.png"
       new_item(File.absolute_path(file), attributes, identifier, binary: true)
