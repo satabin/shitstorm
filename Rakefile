@@ -21,6 +21,8 @@ task(:aff)     { load 'src/make_affirmation.rb' }
 
 task(:arg)     { load 'src/make_argumentation.rb' }
 
+task(:hand)     { load 'src/hand.rb' }
+
 desc 'Enable proof lines'
 task(:with_proofs) do
   puts "Enabling proofing lines."
