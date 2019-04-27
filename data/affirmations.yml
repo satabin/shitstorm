@@ -62,6 +62,15 @@
   description: "Les sources et les preuves scientifiques, c’est inutile ! Défaussez une source de votre adversaire."
   quote: "Je n’ai pas besoin des chiffres, j’ai déjà vu personnellement cette situation. C’est ça la réalité."
   count: 4
+- title: "Ça aurait pu être vrai"
+  aff: 4
+  ren:
+  cost: 3
+  art: lorc/moebius-triangle
+  type: Twitto
+  description:
+  quote: "C’est une image d’illustration"
+  count: 3
 
 # Les Anti-Vax
 # Ceux là sont une cohorte de défense, on va partir sans attaque pour commencer
