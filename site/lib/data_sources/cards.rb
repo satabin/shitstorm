@@ -41,12 +41,16 @@ Class.new(Nanoc::DataSource) do
       arg = arg_data['arg'][idx]
       ren = arg_data['ren'][idx]
       cost = arg_data['cost'][idx]
+      title = arg_data['title'][idx]
+      desc = arg_data['description'][idx]
       attributes = {
         count: count,
         arg: arg,
         ren: ren,
         cost: cost,
-        type: 'argumentation'
+        type: 'argumentation',
+        title: title,
+        desc: desc
       }
       identifier = "/cards/argumentations/#{idx}.png"
       new_item(File.absolute_path(file), attributes, identifier, binary: true)
