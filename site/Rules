@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+#
+require 'kramdown-parser-gfm'
 
 compile '/index.html' do
   layout '/default.*'
